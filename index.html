@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Payment</title>
+  <link rel="stylesheet" href="css/main.css">
+  <head>
+  <body>
+    <form method="post" action="payment.php">
+      <fieldset>
+        <h1>Payment Detalis</h1>
+        <label for="username">Person Name</label>
+        <input type="text" id="username">
+        <label>Card Number</label>
+        <input type="text" maxlength="14">
+        <label>Expiry</label>
+        <input type="date" name="date" id="credit-date">
+        <label for="">CVV/CVC</label>
+        <input type="text" name="cvv" maxlength="3" required>
+        <label for="">Zip Code</label>
+        <input type="text" maxlength="6" name="zipcode" required>
+        <input type="submit" value="Pay $243">
+      </fieldset>
+    </form>
+  </body>
+</html>
